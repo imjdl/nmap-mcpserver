@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "nmap-mcp": {
+      "command": "uv",
+      "args": [
+        "--directory",
+        "/home/kali/mcp-servers/nmap",
+        "run",
+        "nmap-mcp"
+      ]
+    }
+  }
+} 

@@ -1,0 +1,23 @@
+[project]
+name = "nmap-mcp"
+version = "0.1.0"
+description = "A MCP server for nmap network scanning"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "mcp>=1.4.1",
+    "python-libnmap>=0.7.2"
+]
+
+[build-system]
+requires = [ "hatchling",]
+build-backend = "hatchling.build"
+
+[project.scripts]
+nmap-mcp = "nmap_mcp:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/nmap_mcp"]
+
+[tool.hatch.build]
+packages = ["src"]
