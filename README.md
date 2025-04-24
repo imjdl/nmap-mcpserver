@@ -110,3 +110,7 @@ If you encounter errors related to nmap not being found or being executed incorr
 1. Make sure nmap is installed and available in your PATH
 2. Check the logs for which nmap executable is being used
 3. The server will attempt to use the full path to nmap to avoid conflicts
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
