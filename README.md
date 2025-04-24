@@ -111,6 +111,20 @@ If you encounter errors related to nmap not being found or being executed incorr
 2. Check the logs for which nmap executable is being used
 3. The server will attempt to use the full path to nmap to avoid conflicts
 
+## Docker Usage
+
+You can run the MCP server in a Docker container:
+
+```bash
+# Build the Docker image
+docker build -t nmap-mcp-server .
+
+# Run the Docker container
+docker run -it --rm nmap-mcp-server
+```
+
+For integration with the Glama MCP directory, the Docker container allows others to easily use this MCP server without worrying about installation dependencies.
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
