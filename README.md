@@ -2,6 +2,10 @@
 
 This is a Model Control Protocol (MCP) server that provides access to nmap network scanning functionality.
 
+<a href="https://glama.ai/mcp/servers/@imjdl/nmap-mcpserver">
+  <img width="380" height="200" src="https://glama.ai/mcp/servers/@imjdl/nmap-mcpserver/badge" alt="Nmap Server MCP server" />
+</a>
+
 ## Features
 
 - Run nmap scans on specified targets with customizable options
