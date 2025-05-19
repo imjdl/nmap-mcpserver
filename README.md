@@ -1,5 +1,7 @@
 # Nmap MCP Server
 
+[![smithery badge](https://smithery.ai/badge/@imjdl/nmap-mcpserver)](https://smithery.ai/server/@imjdl/nmap-mcpserver)
+
 This is a Model Control Protocol (MCP) server that provides access to nmap network scanning functionality.
 
 ## Features
@@ -10,6 +12,15 @@ This is a Model Control Protocol (MCP) server that provides access to nmap netwo
 
 ## Installation
 
+### Installing via Smithery
+
+To install Nmap MCP Server for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@imjdl/nmap-mcpserver):
+
+```bash
+npx -y @smithery/cli install @imjdl/nmap-mcpserver --client claude
+```
+
+### Installing Manually
 Requirements:
 - Python 3.10+
 - python-libnmap
